@@ -23,19 +23,17 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     images = [[NSMutableArray alloc] initWithCapacity:5];
-    [images addObject:@"http://www.elitesigner.com/uploads/201607223182aYS1j5dDyO.jpg"];
-    [images addObject:@"http://www.elitesigner.com/uploads/201607229453F3uNXfwoHh.jpg"];
-    [images addObject:@"http://www.elitesigner.com/uploads/2016072225269kDF8KyPol.jpg"];
-    [images addObject:@"http://www.elitesigner.com/uploads/201702148432iLmzFaIryk.jpg"];
-    [images addObject:@"http://www.elitesigner.com/uploads/201702147155MDu2g81Itr.jpg"];
-    [images addObject:@"http://www.elitesigner.com/uploads/201612303144yupcjf6vla.jpg"];
-    
+    [images addObject:[UIImage imageNamed:@"001.jpg"]];
+    [images addObject:[UIImage imageNamed:@"002.jpg"]];
+    [images addObject:[UIImage imageNamed:@"003.jpg"]];
+    [images addObject:[UIImage imageNamed:@"004.jpg"]];
+    [images addObject:[UIImage imageNamed:@"005.jpg"]];
     
     cycleScroll = [[WFCycleScrollView alloc] initWithContentSize:CGSizeMake(ScreenWidth, ScreenWidth*2/3)];
     cycleScroll.delegate = self;
     cycleScroll.dataSource = self;
     cycleScroll.pageControlShowStyle = UIPageControlShowStyleCenter;
-    cycleScroll.timeInterval = 6;
+    cycleScroll.timeInterval = 2;
     cycleScroll.pageControl.pageIndicatorTintColor = [UIColor redColor];
     cycleScroll.pageControl.currentPageIndicatorTintColor = [UIColor whiteColor];
     [self.view addSubview:cycleScroll];
@@ -66,7 +64,7 @@
     UIImageView *view = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, cycleScroll.frame.size.height)];
     view.contentMode = UIViewContentModeScaleAspectFill;
     view.clipsToBounds = YES;
-    [view setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:images[index]]]]];
+    [view setImage:images[index]];
     
     return view;
 }

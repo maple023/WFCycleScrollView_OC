@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C6F53711E8F478800A6B207 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6F536C1E8F478800A6B207 /* 001.jpg */; };
+		3C6F53721E8F478800A6B207 /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6F536D1E8F478800A6B207 /* 002.jpg */; };
+		3C6F53731E8F478800A6B207 /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6F536E1E8F478800A6B207 /* 003.jpg */; };
+		3C6F53741E8F478800A6B207 /* 004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6F536F1E8F478800A6B207 /* 004.jpg */; };
+		3C6F53751E8F478800A6B207 /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C6F53701E8F478800A6B207 /* 005.jpg */; };
 		E1EA36FF1E83BB9300613D7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EA36FE1E83BB9300613D7B /* main.m */; };
 		E1EA37021E83BB9300613D7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EA37011E83BB9300613D7B /* AppDelegate.m */; };
 		E1EA37051E83BB9300613D7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EA37041E83BB9300613D7B /* ViewController.m */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C6F536C1E8F478800A6B207 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		3C6F536D1E8F478800A6B207 /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		3C6F536E1E8F478800A6B207 /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
+		3C6F536F1E8F478800A6B207 /* 004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 004.jpg; sourceTree = "<group>"; };
+		3C6F53701E8F478800A6B207 /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
 		E1EA36FA1E83BB9300613D7B /* WFCycleScrollView_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFCycleScrollView_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EA36FE1E83BB9300613D7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1EA37001E83BB9300613D7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +52,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C6F536B1E8F478800A6B207 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3C6F536C1E8F478800A6B207 /* 001.jpg */,
+				3C6F536D1E8F478800A6B207 /* 002.jpg */,
+				3C6F536E1E8F478800A6B207 /* 003.jpg */,
+				3C6F536F1E8F478800A6B207 /* 004.jpg */,
+				3C6F53701E8F478800A6B207 /* 005.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		E1EA36F11E83BB9300613D7B = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +83,7 @@
 		E1EA36FC1E83BB9300613D7B /* WFCycleScrollView_OC */ = {
 			isa = PBXGroup;
 			children = (
+				3C6F536B1E8F478800A6B207 /* images */,
 				E1EA37141E83BC1100613D7B /* WFCycleScrollView */,
 				E1EA37001E83BB9300613D7B /* AppDelegate.h */,
 				E1EA37011E83BB9300613D7B /* AppDelegate.m */,
@@ -151,9 +174,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6F53741E8F478800A6B207 /* 004.jpg in Resources */,
 				E1EA370D1E83BB9300613D7B /* LaunchScreen.storyboard in Resources */,
 				E1EA370A1E83BB9300613D7B /* Assets.xcassets in Resources */,
+				3C6F53751E8F478800A6B207 /* 005.jpg in Resources */,
 				E1EA37081E83BB9300613D7B /* Main.storyboard in Resources */,
+				3C6F53731E8F478800A6B207 /* 003.jpg in Resources */,
+				3C6F53721E8F478800A6B207 /* 002.jpg in Resources */,
+				3C6F53711E8F478800A6B207 /* 001.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
